@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Express - Bersih Cepat, Harga Hemat</title>
+
+    <!-- Bootstrap CSS (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome (CDN) untuk ikon) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS -->
+    <style>
+        /* Gaya Kustom Anda di sini */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80") center/cover no-repeat;
+            color: #fff;
+            text-align: center;
+            padding: 150px 0;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        .testimonial {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        /* Gaya untuk tombol WhatsApp */
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            z-index: 1000; /* Pastikan berada di atas konten lain */
+        }
+
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Header -->
+    <section class="hero">
+        <div class="container">
+            <h1>Laundry Express</h1>
+            <p>Bersih Cepat, Harga Hemat. Solusi laundry terbaik untuk Anda!</p>
+            <a href="#daftar-harga" class="btn btn-primary btn-lg">Lihat Daftar Harga</a>
+        </div>
+    </section>
+
+    <!-- Mengapa Laundry di Sini -->
+    <section id="mengapa-kami" class="container">
+        <h2>Mengapa Memilih Laundry Express?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1623246670431-2864c158d90f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80" alt="Cepat" class="img-fluid mb-3">
+                <h3>Cepat dan Efisien</h3>
+                <p>Kami memahami waktu Anda berharga. Laundry Anda selesai dengan cepat tanpa mengorbankan kualitas.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1519085360753-fc088ea4e529?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Berkualitas" class="img-fluid mb-3">
+                <h3>Kualitas Terbaik</h3>
+                <p>Kami menggunakan deterjen berkualitas tinggi dan proses profesional untuk memastikan pakaian Anda bersih dan terawat.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1541728472184-6eb051509c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Harga Terjangkau" class="img-fluid mb-3">
+                <h3>Harga Terjangkau</h3>
+                <p>Nikmati layanan laundry berkualitas tinggi dengan harga yang bersaing.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Pelanggan -->
+    <section id="testimoni" class="bg-light">
+        <div class="container">
+            <h2>Testimoni Pelanggan</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <p>"Laundry Express benar-benar menyelamatkan saya! Pakaian saya selalu bersih dan rapi, dan harganya sangat terjangkau."</p>
+                        <p><strong>- Sarah J.</strong></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <p>"Saya sangat merekomendasikan Laundry Express. Layanan cepat, ramah, dan kualitasnya luar biasa."</p>
+                        <p><strong>- Michael K.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Daftar Harga -->
+    <section id="daftar-harga" class="container">
+        <h2>Daftar Harga Laundry</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Layanan</th>
+                    <th>Harga per Kg</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cuci Kering</td>
+                    <td>Rp 10.000</td>
+                </tr>
+                <tr>
+                    <td>Cuci Basah</td>
+                    <td>Rp 8.000</td>
+                </tr>
+                <tr>
+                    <td>Setrika</td>
+                    <td>Rp 5.000</td>
+                </tr>
+                <tr>
+                    <td>Cuci + Setrika</td>
+                    <td>Rp 12.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Ketentuan -->
+    <section id="ketentuan" class="bg-light">
+        <div class="container">
+            <h2>Ketentuan Laundry</h2>
+            <ul>
+                <li>Pakaian yang luntur bukan tanggung jawab kami.</li>
+                <li>Barang berharga harap tidak ditinggalkan dalam pakaian.</li>
+                <li>Klaim kekurangan/kerusakan maksimal 1 hari setelah pengambilan.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="container">
+        <h2>FAQ (Pertanyaan yang Sering Diajukan)</h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        Berapa lama proses laundry selesai?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Proses laundry biasanya selesai dalam 2-3 hari, tergantung pada volume dan jenis layanan.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                        aria-expanded="false" aria-controls="collapseTwo">
+                        Apakah ada layanan antar-jemput?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Ya, kami menyediakan layanan antar-jemput dengan biaya tambahan. Silakan hubungi kami untuk informasi lebih lanjut.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                        aria-expanded="false" aria-controls="collapseThree">
+                        Jenis deterjen apa yang digunakan?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Kami menggunakan deterjen ramah lingkungan dan berkualitas tinggi untuk menjaga pakaian Anda tetap bersih dan awet.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Kami -->
+    <section id="kontak" class="bg-light">
+        <div class="container">
+            <h2>Kontak Kami</h2>
+            <p>Hubungi kami untuk informasi lebih lanjut atau pemesanan layanan:</p>
+            <p><i class="fas fa-phone"></i> Telepon: 021-12345678</p>
+            <p><i class="fas fa-envelope"></i> Email: info@laundryexpress.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Alamat: Jl. Contoh No. 123, Jakarta</p>
+        </div>
+    </section>
+
+    <!-- Tombol WhatsApp (Pop-up) -->
+    <a href="https://api.whatsapp.com/send?phone=6281234567890&text=Halo%20Laundry%20Express,%20saya%20ingin%20bertanya..."
+        class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i> Chat via WhatsApp
+    </a>
+
+    <!-- Bootstrap JavaScript (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery (Optional, for more advanced interactions) -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
+
+</body>
+
+</html>
